@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tk
 %define	pnam	WaitBox
-Summary:	Tk::WaitBox perl module
-Summary(pl):	Modu³ perla Tk::WaitBox
+Summary:	Tk::WaitBox - An Object Oriented Wait Dialog for Perl/Tk, of the Please Wait variety.
 Name:		perl-Tk-WaitBox
 Version:	1.3
 Release:	6
@@ -16,10 +15,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tk::WaitBox perl module.
-
-%description -l pl
-Modu³ perla Tk::WaitBox.
+Tk::WaitBox is a perl5 package which implements a very flexible WaitBox
+widget.  To use Tk::FileDialog, you will need Perl version 5.002 or
+better, and Tk.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
