@@ -5,7 +5,7 @@ Summary:	Tk::WaitBox - an OO wait dialog for Perl/Tk, of the please wait variety
 Summary(pl):	Tk::WaitBox - obiektowe okno dialogowe oczekiwania dla Perl/Tk
 Name:		perl-Tk-WaitBox
 Version:	1.3
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
