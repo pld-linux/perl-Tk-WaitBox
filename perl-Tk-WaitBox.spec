@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tk
 %define	pnam	WaitBox
-Summary:	Tk::WaitBox - An OO Wait Dialog for Perl/Tk, of the Please Wait variety
+Summary:	Tk::WaitBox - an OO wait dialog for Perl/Tk, of the please wait variety
 Summary(pl):	Tk::WaitBox - obiektowe okno dialogowe oczekiwania dla Perl/Tk
 Name:		perl-Tk-WaitBox
 Version:	1.3
