@@ -3,7 +3,7 @@ Summary:	Tk-WaitBox perl module
 Summary(pl):	Modu³ perla Tk-WaitBox
 Name:		perl-Tk-WaitBox
 Version:	1.3
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
