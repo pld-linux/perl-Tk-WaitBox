@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tk
 %define	pnam	WaitBox
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tk-WaitBox perl module
 Summary(pl):	Modu³ perla Tk-WaitBox
 Name:		perl-Tk-WaitBox
 Version:	1.3
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Tk-WaitBox perl module.
 Modu³ perla Tk-WaitBox.
 
 %prep
-%setup -q -n Tk-WaitBox-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
