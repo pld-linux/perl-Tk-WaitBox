@@ -2,7 +2,7 @@
 %define		pdir	Tk
 %define		pnam	WaitBox
 Summary:	Tk::WaitBox - an OO wait dialog for Perl/Tk, of the please wait variety
-Summary(pl):	Tk::WaitBox - obiektowe okno dialogowe oczekiwania dla Perl/Tk
+Summary(pl.UTF-8):   Tk::WaitBox - obiektowe okno dialogowe oczekiwania dla Perl/Tk
 Name:		perl-Tk-WaitBox
 Version:	1.3
 Release:	10
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Tk::WaitBox is a perl5 package which implements a very flexible
 WaitBox widget.
 
-%description -l pl
-Tk::WaitBox to pakiet Perla z implementacj± bardzo elastycznego
+%description -l pl.UTF-8
+Tk::WaitBox to pakiet Perla z implementacjÄ… bardzo elastycznego
 widgetu WaitBox.
 
 %prep
